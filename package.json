@@ -1,25 +1,32 @@
 {
-    "name": "background",
-    "displayName": "background",
-    "description": "A simple tool to make your vscode's background look better!",
-    "version": "1.1.19",
-    "publisher": "shalldie",
+    "name": "eyegoodbgimage",
+    "displayName": "eyegoodbgimage",
+    "description": "eyegood and background image",
+    "version": "1.0.1",
+    "publisher": "eyegoodbgimage",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/shalldie/vscode-background.git"
+        "url": "git+https://github.com/kana112233/eyegood.git"
     },
     "engines": {
         "vscode": "^1.17.0"
     },
-    "icon": "vscode-background-logo.png",
     "categories": [
-        "Other"
+        "Themes"
     ],
+    "icon": "cute.png",
     "activationEvents": [
         "*"
     ],
     "main": "./out/extension",
     "contributes": {
+        "themes": [
+            {
+                "label": "goodeye",
+                "uiTheme": "vs",
+                "path": "./themes/goodeye-color-theme.json"
+            }
+        ],
         "commands": [
             {
                 "command": "extension.background.info",
@@ -50,8 +57,8 @@
                         "width": "100%",
                         "height": "100%",
                         "background-position": "100% 100%",
-                        "background-repeat": "no-repeat",
-                        "opacity": 1
+                        "background-repeat": "repeat-x",
+                        "opacity": 0.2
                     },
                     "description": "Custom common style.自定义各项公有样式."
                 },
