@@ -2,11 +2,11 @@
     "name": "eyegoodbgimage",
     "displayName": "eyegoodbgimage",
     "description": "eyegood and background image",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "eyegoodbgimage",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/kana112233/eyegood.git"
+        "url": "git+https://github.com/kana112233/eyegoodbgimage.git"
     },
     "engines": {
         "vscode": "^1.17.0"
@@ -58,7 +58,7 @@
                         "height": "100%",
                         "background-position": "100% 100%",
                         "background-repeat": "repeat-x",
-                        "opacity": 0.2
+                        "opacity": 0.1
                     },
                     "description": "Custom common style.自定义各项公有样式."
                 },
