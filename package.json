@@ -2,7 +2,7 @@
     "name": "eyegoodbgimage",
     "displayName": "eyegoodbgimage",
     "description": "eyegood and background image",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "eyegoodbgimage",
     "repository": {
         "type": "git",
@@ -56,7 +56,7 @@
                         "z-index": "99999",
                         "width": "100%",
                         "height": "100%",
-                        "background-position": "100% 100%",
+                        "background-position": "center",
                         "background-repeat": "repeat-x",
                         "opacity": 0.1
                     },
