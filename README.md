@@ -6,21 +6,8 @@
 
 
 ## It looks like:
+![安装后显示的样子](https://github.com/kana112233/eyegoodbgimage/blob/master/example/img1.png)
 
-
-## Warns 警告：
-
-> **本插件是通过修改 vscode 的 css 文件的方式运行**  
-> 所以会在初次安装，或者 vscode 升级的时候，出现以下提示，请选择 【不再提示】:
->
-> **This extension works by editting the vscode's css file.**  
-> So, a information appears while the first time to install or vscode update.U can click the [never show again] to avoid it.
-
-![](https://user-images.githubusercontent.com/9987486/40583926-b1fb5398-61ca-11e8-8271-4ac650d158d3.png)
-
-This is the reason:
-
-![](https://user-images.githubusercontent.com/9987486/40583775-91d4c8d6-61c7-11e8-9048-8c5538a32399.png)
 
 ## Config 配置项
 
@@ -84,4 +71,18 @@ Press F1,and you can get it by enter **ext install background** in your vscode. 
 
 ---
 
+### 开发
+npm install
+
+vsce craate-publisher eyegoodbgimage
+
+vsce package
+
+vsce publish
+
+vsce publish patch
+
+
 **Enjoy!**
+
+

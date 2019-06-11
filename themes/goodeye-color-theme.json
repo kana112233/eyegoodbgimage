@@ -62,7 +62,7 @@
         "dropdown.border":"#662d45",
         "titleBar.activeBackground": "#e3f0e3",
         "titleBar.activeForeground": "#519657",
-        "titleBar.inactiveBackground": "#0a0d0e",
+        "titleBar.inactiveBackground": "#e3f0e3",
         "titleBar.inactiveForeground": "#548858"
 	},
 	"tokenColors": [
