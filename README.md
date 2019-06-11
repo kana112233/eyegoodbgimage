@@ -76,11 +76,14 @@ npm install
 
 vsce craate-publisher eyegoodbgimage
 
-vsce package
 
 vsce publish
 
 vsce publish patch
+
+如果上面两个不能部署，则手动部署
+vsce package
+用插件项目管理上传生成的eyegoodbgimage-x.y.z.vsix文件
 
 
 **Enjoy!**
