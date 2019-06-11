@@ -169,7 +169,7 @@ class Background {
 
         // 2.两次配置均为，未启动插件
         if (!lastConfig.enabled && !config.enabled) {
-            // console.log('两次配置均为，未启动插件');
+             console.log('两次配置均为，未启动插件');
             return;
         }
 

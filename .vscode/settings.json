@@ -6,16 +6,16 @@
     "search.exclude": {
         "out": true // set this to false to include "out" folder in search results
     },
-    "background.useDefault":false,
-    "background.style": {
-        "content": "''",
-        "pointer-events": "none",
-        "z-index": "99999",
-        "width": "100%",
-        "height": "100%",
-        "background-position": "center",
-        "background-repeat": "repeat-x",
-        "opacity": 0.1
+    // "background.useDefault":false,
+    // "background.style": {
+    //     "content": "''",
+    //     "pointer-events": "none",
+    //     "z-index": "99999",
+    //     "width": "100%",
+    //     "height": "100%",
+    //     "background-position": "center",
+    //     "background-repeat": "repeat-x",
+    //     "opacity": 0.1
  
-    }
+    // }
 }

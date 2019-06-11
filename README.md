@@ -1,6 +1,6 @@
-# vscode-background
+# eye good and background image
 
-
+护眼模式
 
 ## Add a lovely background-image to your vscode.
 
@@ -41,8 +41,19 @@ You should use protocol **https** instead of **http** to the image,which is not 
 
 ## Uninstall 卸载
 
-    Set the config  {"background.enabled": false}  in settings.json,then uninstall the plugin.
+   1 Set the config  {"background.enabled": false}  in settings.json,then uninstall the plugin.
     在 settings.json 中设置 {"background.enabled": false} ，然后再删除插件。如果直接删除插件会有遗留，就需要重装vscode了。
+   2 如果还是删除不掉背景图片，就到项目安装目录下找到Microsoft VS Code\resources\app\out\vs\workbench\workbench.main.css 文件
+   把下面这些删掉
+ /*css-background-start*/
+/*background.ver.1.0.1*/
+[id="workbench.parts.editor"] 太长省略一大片
+[id="workbench.parts.editor"] 太长省略一大片
+[id="workbench.parts.editor"] 太长省略一大片
+
+[id="workbench.parts.editor"] .split-view-view .editor-container  .overflow-guard>.monaco-scrollable-element>.monaco-editor-background{background: none;}
+
+/*css-background-end*/
 
 ### Q&A 常见问题:
 
