@@ -4,11 +4,6 @@
 
 ## Add a lovely background-image to your vscode.
 
-
-## It looks like:
-![安装后显示的样子](https://github.com/kana112233/eyegoodbgimage/blob/master/example/img1.png)
-
-
 ## Config 配置项
 
 | Name                      |      Type       | Description                                                                                 |
