@@ -1,16 +1,31 @@
-### ver1.0.5
+# Change log
+
+## 1.1.0
+
+### Features
+
+1 add sidebar background image
+
+2 add panel terminal background image
+
+## 1.0.5
+
 修改菜单栏未激活时的颜色 黑色改白色
 
-### ver1.0.4
+## 1.0.4
+
 编辑窗口split时
 最多三个split
 
-#### ver1.0.3
+### 1.0.3
+
 修改图片居中
 
-#### ver1.0.2
+## 1.0.2
+
 更改版本信息
 
-#### ver1.0.1
-    开始版本
+## 1.0.1
+
+开始版本
 

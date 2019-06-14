@@ -62,8 +62,6 @@ You should use protocol **https** instead of **http** to the image,which is not 
 
 ---
 
-In ubuntu:[https://github.com/shalldie/vscode-background/issues/6](https://github.com/shalldie/vscode-background/issues/6).
-
 Press F1,and you can get it by enter **ext install background** in your vscode. (～￣ ▽ ￣)～
 <br />
 <br />
