@@ -62,7 +62,7 @@ export default function (arr: Array<string>, style = {}, styles = [], useFront =
 
 [id="workbench.parts.editor"] .split-view-view .editor-container .overflow-guard>.monaco-scrollable-element>.monaco-editor-background{background: none;}
 
-[id="workbench.parts.panel"] .split-view-view:nth-child(1)${frontContent}{background-image: url('${img0}');content:'';pointer-events:none;position:absolute;z-index:0;width:100%;height:100%;background-position:center;background-repeat:repeat-x;opacity:0.1}
+[id="workbench.parts.panel"] .split-view-view:nth-child(1)${frontContent}{background-image: url('${img0}');content:'';pointer-events:none;position:absolute;z-index:0;width:100%;height:100%;background-position:100% 100%;background-repeat:repeat-x;opacity:0.1}
 [id="workbench.parts.panel"] .split-view-view:nth-child(1)${frontContent}{background-image: url('${img1}');content:'';pointer-events:none;position:absolute;z-index:0;width:100%;height:100%;background-position:center;background-repeat:repeat-x;opacity:0.1}
 [id="workbench.parts.panel"] .split-view-view:nth-child(1)${frontContent}{background-image: url('${img2}');content:'';pointer-events:none;position:absolute;z-index:0;width:100%;height:100%;background-position:center;background-repeat:repeat-x;opacity:0.1}
 

@@ -80,5 +80,3 @@ vsce package
 
 
 **Enjoy!**
-
-

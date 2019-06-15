@@ -1,5 +1,9 @@
 # Change log
 
+## 1.1.1
+
+editor 和panel的背景图片人物组合成一个人物
+
 ## 1.1.0
 
 ### Features
