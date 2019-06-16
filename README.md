@@ -2,6 +2,8 @@
 
 护眼模式
 
+![最终的样子](example/img1.png)
+
 ## Add a lovely background-image to your vscode.
 
 ## Config 配置项

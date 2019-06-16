@@ -1,5 +1,9 @@
 # Change log
 
+## 1.1.3
+
+Ctrl + P 搜索关键字匹配到文字时看不清 改成紫红色
+
 ## 1.1.2
 
 修复panel terminal split时不显示背景
