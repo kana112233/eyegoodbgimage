@@ -40,7 +40,7 @@ export default function (arr: Array<string>, style = {}, styles = [], useFront =
         encodeURI(arr[2] || 'none')] : defBase64;
 
     let defStyle = getStyleByOptions(style, useFront); // 默认样式
-    let [styel0, style1, style2] = [                   // 3个子项样式
+    let [style0, style1, style2] = [                   // 3个子项样式
         defStyle + getStyleByOptions(styles[0], useFront),
         defStyle + getStyleByOptions(styles[1], useFront),
         defStyle + getStyleByOptions(styles[2], useFront)
@@ -49,24 +49,22 @@ export default function (arr: Array<string>, style = {}, styles = [], useFront =
     // 在前景图时使用 ::after
     let frontContent = useFront ? '::after' : '::before';
 
-    let content = `
+    let content = ''
+
+    content = `
 
 /*css-background-start*/
 /*background.ver.${version}*/
 
-[id="workbench.parts.editor"] .split-view-view:nth-child(1) .editor-container .overflow-guard>.monaco-scrollable-element${frontContent}{background-image: url('${img0}');${styel0}}
-
-[id="workbench.parts.editor"] .split-view-view:nth-child(2) .editor-container .overflow-guard>.monaco-scrollable-element${frontContent}{background-image: url('${img1}');${style1}}
-
-[id="workbench.parts.editor"] .split-view-view:nth-child(3) .editor-container .overflow-guard>.monaco-scrollable-element${frontContent}{background-image: url('${img2}');${style2}}
-
+[id="workbench.parts.editor"] .split-view-container${frontContent}{background-image: url('${img0}');${style0}}
 [id="workbench.parts.editor"] .split-view-view .editor-container .overflow-guard>.monaco-scrollable-element>.monaco-editor-background{background: none;}
 
-[id="workbench.parts.panel"] .split-view-view:nth-child(1)${frontContent}{background-image: url('${img0}');content:'';pointer-events:none;position:absolute;z-index:0;width:100%;height:100%;background-position:100% 100%;background-repeat:repeat-x;opacity:0.1}
-[id="workbench.parts.panel"] .split-view-view:nth-child(2)${frontContent}{background-image: url('${img1}');content:'';pointer-events:none;position:absolute;z-index:0;width:100%;height:100%;background-position:center;background-repeat:repeat-x;opacity:0.1}
-[id="workbench.parts.panel"] .split-view-view:nth-child(3)${frontContent}{background-image: url('${img2}');content:'';pointer-events:none;position:absolute;z-index:0;width:100%;height:100%;background-position:center;background-repeat:repeat-x;opacity:0.1}
+[id="workbench.parts.panel"] .split-view-container${frontContent}{background-image: url('${img1}');${style1}}
+[id="workbench.panel.output"] .view-lines::after{background-image: url('${img1}');${style1}}
+[id="workbench.panel.repl"] .monaco-list-rows::after{background-image: url('${img1}');${style1}}
+[id="workbench.panel.markers"] .markers-panel-container::before{background-image: url('${img1}');${style1}}
 
-[id="workbench.parts.sidebar"] .split-view-view::before{background-image: url('${img0}');content:'';pointer-events:none;position:absolute;z-index:0;width:100%;height:100%;background-position:center;background-repeat:repeat-x;opacity:0.1}
+[id="workbench.parts.sidebar"] .split-view-view::before{background-image: url('${img2}');${style2}}
 
 /*css-background-end*/
 `;

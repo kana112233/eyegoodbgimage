@@ -14,7 +14,7 @@
         "editorIndentGuide.background": "#639765",
         "editorIndentGuide.activeBackground": "#a5d6a7",
         "editorSuggestWidget.background": "#c8e6c9",
-        "editorSuggestWidget.border":"#a5d6a7",
+        "editorSuggestWidget.border":"#a5d6a7", 
         "editorSuggestWidget.foreground": "#338a3e",
         "editorSuggestWidget.highlightForeground": "#338a3e",
         "editorSuggestWidget.selectedBackground": "#a5d6a7",
@@ -56,7 +56,7 @@
         "list.inactiveSelectionBackground":"#dcedc8",
         "list.inactiveSelectionForeground":"#519657",
         "list.hoverBackground":"#dcedc8",
-        "list.highlightForeground":"#0a0ee4",//ctrl + p 输入文字搜索高亮
+        "list.highlightForeground":"#30c422",//ctrl + p 输入文字搜索高亮
         "gitDecoration.modifiedResourceForeground": "#00600f",
         "dropdown.background":"#c8e6c9",
         "dropdown.border":"#662d45",

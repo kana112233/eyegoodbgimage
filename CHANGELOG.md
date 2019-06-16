@@ -1,8 +1,16 @@
 # Change log
 
-## 1.1.3
+## 1.2.0
 
-Ctrl + P 搜索关键字匹配到文字时看不清 改成紫红色
+### add Features
+
+1 editor和panel使用一张背景图片，split时不会分割了并且不会再有md文件预览时不显示背景图片
+ 删掉以前的editor的多个split背景
+2 panel下的problems output debugconsole加入背景图片
+
+## fix bugs
+
+Ctrl + P 搜索关键字匹配到文字时看不清 改成蓝色
 
 ## 1.1.2
 
