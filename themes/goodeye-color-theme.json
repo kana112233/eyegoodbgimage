@@ -56,7 +56,7 @@
         "list.inactiveSelectionBackground":"#dcedc8",
         "list.inactiveSelectionForeground":"#519657",
         "list.hoverBackground":"#dcedc8",
-        "list.highlightForeground":"#9e0d0d",//ctrl + p 输入文字搜索高亮
+        "list.highlightForeground":"#0a0ee4",//ctrl + p 输入文字搜索高亮
         "gitDecoration.modifiedResourceForeground": "#00600f",
         "dropdown.background":"#c8e6c9",
         "dropdown.border":"#662d45",
