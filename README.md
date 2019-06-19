@@ -4,6 +4,8 @@
 
 ![最终的样子](example/img1.png)
 
+![最终的样子2](example/img2.png)
+
 ## Config 配置项
 
 | Name                      |      Type       | Description                                                                                 |
