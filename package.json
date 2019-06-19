@@ -13,7 +13,7 @@
     "publisher": "eyegoodbgimage",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/kana112233/eyegoodbgimage.git"
+        "url": "https://github.com/kana112233/eyegoodbgimage.git"
     },
     "engines": {
         "vscode": "^1.17.0"
