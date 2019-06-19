@@ -34,6 +34,7 @@ function getStyleByOptions(options: object, useFront: boolean) {
  * @returns
  */
 export default function (arr: Array<string>, style = {}, styles = [], useFront = true) {
+   // TODO 这里可以再修改为可选择的背景图片
     let [img0, img1, img2] = (arr && arr.length) ?
         [encodeURI(arr[0] || 'none'),
         encodeURI(arr[1] || 'none'),
@@ -49,7 +50,7 @@ export default function (arr: Array<string>, style = {}, styles = [], useFront =
     // 在前景图时使用 ::after
     let frontContent = useFront ? '::after' : '::before';
 
-    let content = ''
+    let content = ''  // TODO 这里
 
     content = `
 

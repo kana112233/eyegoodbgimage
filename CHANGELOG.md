@@ -1,5 +1,8 @@
 # Change log
 
+// TODO
+可以选择背景图片
+
 ## 1.2.0
 
 ### add Features
