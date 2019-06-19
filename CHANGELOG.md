@@ -3,6 +3,10 @@
 // TODO
 可以选择背景图片
 
+## 1.2.1
+
+fix repository url
+
 ## 1.2.0
 
 ### add Features
